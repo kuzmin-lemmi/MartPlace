@@ -12,7 +12,10 @@ html {
 ul,
 p,
 ol,
-li {
+li,
+h1,
+h2
+{
     margin: 0;
     padding: 0;
     list-style: none;
@@ -21,6 +24,10 @@ li {
 a {
     text-decoration: none;
     display: inline-block;
+    color:$text;
+}
+button{
+    border:none;
 }
 // =============Контеинер============
 .container {
@@ -30,5 +37,8 @@ a {
 }
 // =============BODY============
 body{
-    
+    font-family: 'Quicksand', sans-serif;
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 400;
 }
