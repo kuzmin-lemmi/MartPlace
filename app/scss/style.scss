@@ -20,7 +20,7 @@
     cursor: pointer;
     outline: none;
     margin-left: auto;
-    margin-right: 50px;
+    margin-right: 40px;
     transition: all 0.3s;
 
     &:hover {
@@ -46,6 +46,30 @@
 .header_top-link {
     width: 135px;
     margin-right: 25px;
+    display: flex;
+    justify-content: space-around;
+
+    a {
+        display: block;
+    }
+
+    .bell {
+        margin-top: 10px;
+        margin-left: 3px;
+        margin-right: 3px;
+    }
+
+    .message {
+        margin-top: 7px;
+        margin-left: 3px;
+        margin-right: 3px;
+    }
+
+    .basket {
+        margin-top: 10px;
+        margin-left: 3px;
+        margin-right: 3px;
+    }
 }
 
 .box__user-img {
@@ -207,6 +231,39 @@
     box-shadow: 0px 4px 20px 0px rgba(17, 11, 11, 0.08);
     bottom: 0;
     z-index: 4;
+    padding: 40px;
+
+    form {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    input {
+        display: block;
+        max-width: 807px;
+        width: 100%;
+        border-radius: 4px;
+        height: 55px;
+        border: 1px solid $border;
+        font-weight: 400;
+        outline: none;
+        padding-left: 25px;
+        padding-right: 80px;
+
+        &::placeholder {
+            color: #898f96;
+        }
+    }
+
+    button {
+        border-radius: 4px;
+        background-color: rgb(6, 116, 236);
+        width: 223px;
+        height: 55px;
+        cursor: pointer;
+        outline: none;
+        color:#fff;
+    }
 }
 
 .search_box2 {
@@ -215,7 +272,8 @@
     bottom: 15px;
     z-index: 3;
 }
-.search_box3{
+
+.search_box3 {
     max-width: 1080px;
     opacity: 0.502;
     bottom: 30px;
