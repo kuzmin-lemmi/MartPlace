@@ -3,4 +3,8 @@
     color: $color;
     font-size: $size;
 }
-    
+
+@mixin dfsb{
+    display: flex;
+    justify-content: space-between;
+}

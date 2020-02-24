@@ -2,7 +2,6 @@ html {
     box-sizing: border-box;
 }
 
-
 *,
 *::before,
 *::after {
@@ -10,12 +9,8 @@ html {
 }
 
 ul,
-p,
 ol,
-li,
-h1,
-h2
-{
+li {
     margin: 0;
     padding: 0;
     list-style: none;
@@ -23,20 +18,22 @@ h2
 
 a {
     text-decoration: none;
-    display: inline-block;
-    color:$text;
+    color: $text;
 }
-button{
-    border:none;
+
+button {
+    border: none;
 }
+
 // =============Контеинер============
 .container {
     max-width: 1170px;
     margin: 0 auto;
     padding: 0 15px;
 }
+
 // =============BODY============
-body{
+body {
     font-family: 'Quicksand', sans-serif;
     font-size: 16px;
     line-height: 30px;
