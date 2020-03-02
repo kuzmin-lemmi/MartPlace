@@ -6,10 +6,19 @@ $(function () {
     });
 
     $('.featured__slider').slick({
-        nextArrow:'<button class="slick-arrow slick-next"><img src="images/featured/chevron-right.png" alt=""></img></button>',
-        prevArrow:' <button class="slick-arrow slick-prev"><img src="images/featured/chevron-left.png" alt=""></img></button>',
-        slidesToShow:1,
-        slidesToScroll:1
+        nextArrow: '<button class="slick-arrow slick-next"><img src="images/featured/chevron-right.png" alt=""></img></button>',
+        prevArrow: ' <button class="slick-arrow slick-prev"><img src="images/featured/chevron-left.png" alt=""></img></button>',
+        slidesToShow: 1,
+        slidesToScroll: 1
     });
+
+    $('.follower__items').slick({
+        nextArrow: '<button class="slick-arrow slick-next"><img src="images/featured/chevron-right.png" alt=""></img></button>',
+        prevArrow: ' <button class="slick-arrow slick-prev"><img src="images/featured/chevron-left.png" alt=""></img></button>',
+        slidesToShow: 3,
+        slidesToScroll: 3,
+        arrows: true
+    });
+
 
 });
